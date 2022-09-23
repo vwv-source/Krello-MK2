@@ -1,0 +1,1 @@
+<div class="popup"><div class="window"><input type="text" class="textinput" value="Card title."><br><input type="button" class="button" value="Create" id="createcardbutt"></div></div>

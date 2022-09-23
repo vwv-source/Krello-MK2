@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krello Board</title>
+    <link rel="stylesheet" href="../CSS/boardpage.css">
+</head>
+<body>
+    <div class="container">
+        <p class="boardtitle">Board Title</p>
+        <div class="list">
+            <p class="listheader">deadline 12:00</p>
+            <p class="listtitle">Completed</p>
+            <div class="cardscontainer">
+                <div class="card" draggable="true">
+                    <p class="cardtext">Lesson 1</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p class="cardtext">Lesson 2</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p class="cardtext">Lesson 3</p>
+                </div>
+                <div class="card" draggable="true">
+                    <p class="cardtext">Lesson 4</p>
+                </div>
+            </div>
+            <input type="button" class="addcard" value="+">
+        </div>
+        <div class="list">
+            <p class="listheader">deadline 15:00</p>
+            <p class="listtitle">Doing</p>
+            <div class="cardscontainer"></div>
+            <input type="button" class="addcard" value="+">
+        </div>
+        <div class="list">
+            <p class="listheader">deadline 15:00</p>
+            <p class="listtitle">Dropped</p>
+            <div class="cardscontainer"></div>
+            <input type="button" class="addcard" value="+">
+        </div>
+    </div>
+    <div class="bincontainer"></div>
+</body>
+<script src="../JS/boardpage.js" type="module"></script>
+</html>
