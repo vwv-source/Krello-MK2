@@ -7,8 +7,6 @@ var dragmode = null;
 var bincontainer = document.querySelector('.bincontainer')
 import 'https://code.jquery.com/jquery-3.6.0.min.js'
 
-
-
 //--------------Bin stuff---------------------
 
 bincontainer.addEventListener("dragenter", function binDragEnter(e){
@@ -35,8 +33,6 @@ bincontainer.addEventListener("drop", function binDrop(e){
 //--------------Bin stuff---------------------
 
 //--------------Window/popup stuffs-------------
-
-
 
 $(document).on('click','#cancelbutt', function(e){
     $('.popup').remove()

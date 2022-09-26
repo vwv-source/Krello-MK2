@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(145, 83, 245);
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: 550;
+    margin: 0;
+    margin-left: 20px;
+}
+
+a{
+    transition: .5s;
+    text-decoration:wavy;
+    color: rgba(92, 0, 153, 0.979);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgba(153, 0, 255, 0.979);
+    text-shadow:
+    0px 0px 5px rgb(218, 163, 255),
+    0px 0px 10px rgb(218, 163, 255),
+    0px 0px 15px rgb(218, 163, 255);
+}
+
+.headertext{
+    color:  white;
+    font-size: 75px;
+    margin: 10px;
+    padding: 0;
+    font-family: 'Varela Round';
+}
+
+.container{
+    margin-top: 175px;
+}
+
+@media only screen and (max-width: 600px) {
+    .headertext{
+        font-size: 35px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+    .container{
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    p{
+        margin-top: 15px;
+        font-size: 21px;
+    }
+}
